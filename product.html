@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Products</title>
+    <style>
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .product a.button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .product a.button:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="product-grid">
+        <div class="product">
+            <img src="https://picsum.photos/250/150?random=1" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>$19.99</p>
+            <a href="cart.html?product=1" class="button">P1-Add to Cart</a>
+        </div>
+
+        <div class="product">
+            <img src="https://picsum.photos/250/150?random=2" alt="Product 2">
+            <h3>Product 2</h3>
+            <p>$24.50</p>
+            <a href="cart.html?product=2" class="button">P2-Add to Cart</a>
+        </div>
+
+        <div class="product">
+            <img src="https://picsum.photos/250/150?random=3" alt="Product 3">
+            <h3>Product 3</h3>
+            <p>$35.00</p>
+            <a href="cart.html?product=3" class="button">P3-Add to Cart</a>
+        </div>
+
+        <div class="product">
+            <img src="https://picsum.photos/250/150?random=4" alt="Product 4">
+            <h3>Product 4</h3>
+            <p>$12.75</p>
+            <a href="cart.html?product=4" class="button">p4-Add to Cart</a>
+        </div>
+
+        <div class="product">
+            <img src="https://picsum.photos/250/150?random=5" alt="Product 5">
+            <h3>Product 5</h3>
+            <p>$29.99</p>
+            <a href="cart.html?product=5" class="button">p5-Add to Cart</a>
+        </div>
+
+        <div class="product">
+            <img src="https://picsum.photos/250/150?random=6" alt="Product 6">
+            <h3>Product 6</h3>
+            <p>$45.20</p>
+            <a href="cart.html?product=6" class="button">P6-Add to Cart</a>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
